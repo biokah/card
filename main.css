@@ -1,0 +1,119 @@
+body {
+    font-family: "Roboto", sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    text-decoration: none;
+  
+}
+
+a {
+    color: black;
+}
+
+h2 {
+    font-size: 1.75rem;
+    margin-left: 10px;
+}
+
+#card-view-list {
+    display: grid;
+    gap: 16px;
+    grid-template-columns:
+      repeat(auto-fill, minmax(350px, 1fr));
+
+}
+
+.card {
+    
+    border-radius: 8px;
+    transition: 0.2s;   
+    background-color: white;
+    border: 1px solid #DFDFDF;
+    margin: 10px;
+    
+}
+
+.primary-link {
+    display: block;
+   font-weight: bold;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.card-header {
+    background-color: #F8F9FA;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    justify-items: flex-start;
+    margin-bottom: 10px;
+    
+}
+
+.flag {
+    background-color: #18A2B8;
+    color: white;
+    padding: 5px;
+    font-size: .85rem;
+    border-radius: 5px;
+    width: max-content;
+}
+
+.telephone-wrapper {
+    color: #18A2B8;
+}
+
+.email-wrapper, .location-wrapper, .telephone-wrapper  {
+    margin-left: 20px;
+    margin-top: 5px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+.contact-title {
+    margin: 20px;
+}
+
+.modify-link {
+    border: 1px solid #18A2B8;
+    color: #18A2B8;
+    width: full;
+    padding: 5px;
+    margin: 5px 5px;
+    display: block;
+    border-radius: 8px;
+    text-align: center;
+}
+
+ion-icon {
+    transform: scale(1.3);
+}
+
+.card-footer {
+    border-top: 1px solid #DFDFDF;
+    margin-top: 10px;
+    padding: 10px 20px;
+}
+.revenue-wrapper {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+  
+    padding: 5px;
+}
+
+.positive-revenue {
+    background: #E8FFE9;
+}
+
+.negative-revenue {
+    background: #FFF0EA;
+}
