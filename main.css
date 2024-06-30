@@ -53,20 +53,27 @@ h2 {
     gap: 7px;
     justify-items: flex-start;
     margin-bottom: 10px;
-    
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
-.flag {
+article.card-header span.flag {
     background-color: #18A2B8;
     color: white;
     padding: 5px;
-    font-size: .85rem;
+    font-size: .85rem !important;
     border-radius: 5px;
     width: max-content;
 }
-
+.contact-wrapper {
+    min-height: 67px;
+}
 .telephone-wrapper {
     color: #18A2B8;
+}
+
+.telephone-wrapper:hover {
+    text-decoration: underline;
 }
 
 .email-wrapper, .location-wrapper, .telephone-wrapper  {
@@ -77,6 +84,9 @@ h2 {
     align-items: center;
 }
 
+.telephone-wrapper a {
+    color:inherit;
+}
 
 .contact-title {
     margin: 20px;
